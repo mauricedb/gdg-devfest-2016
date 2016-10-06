@@ -33,5 +33,6 @@ input {
 }
 
 img {
+    margin-top: 1.33em;
     height: 180px;
 }
