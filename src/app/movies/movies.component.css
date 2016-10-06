@@ -1,0 +1,6 @@
+.movies {
+    display:flex;
+    flex-direction:column;
+    width: 600px;
+    margin: auto;
+}
