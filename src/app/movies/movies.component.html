@@ -1,8 +1,7 @@
 <div class="movies" *ngIf="movies">
   <h2>{{movies.length}} movies found</h2>
-  <div *ngFor="let movie of movies">
-    {{movie.title}}
-  </div>
+  <app-movie *ngFor="let movie of movies" [movie]="movie">
+  </app-movie>
 </div>
 
 <div *ngIf="!movies">

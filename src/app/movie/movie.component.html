@@ -1,0 +1,25 @@
+<div class="movie">
+  <div>
+    <a href="#">
+      <img [src]="movie.posters.profile" alt="...">
+    </a>
+  </div>
+  <div class="movie-info">
+    <div class="movie-header">
+      <h4>{{movie.title}}</h4>
+      <h4 class="right">{{movie.ratings.audienceScore}}</h4>
+    </div>
+    <!--<div class="movie-header">
+      <input type="text" [(ngModel)]="movie.title">
+    </div>-->
+    <div class="movie-header">
+      <span *ngFor="let g of movie.genres" class="genre">
+        {{g}}
+      </span>
+      <span class="right">
+        {{movie.year}}
+      </span>
+    </div>
+    <p>{{movie.criticsConsensus}}</p>
+  </div>
+</div>
