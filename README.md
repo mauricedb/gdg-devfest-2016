@@ -1,5 +1,7 @@
 # GdgNg2
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mauricedb/gdg-devfest-2016.svg)](https://greenkeeper.io/)
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
 
 ## Development server
